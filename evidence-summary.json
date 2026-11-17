@@ -1,0 +1,64 @@
+{
+  "observation_date": "2026-11-17",
+  "timezone": "UTC+08:00",
+  "reported_observation": {
+    "source": "User report during several hours of use",
+    "before_permission_mode": "Auto",
+    "after_permission_mode": "Bypass Permissions",
+    "before_cache_hit_percent_approx": 47,
+    "after_cache_hit_percent_approx": 86,
+    "change_percentage_points_approx": 39,
+    "exact_window_boundaries": null,
+    "calculation_method_saved": false,
+    "reported_outcome": "Original repeated short-output symptom disappeared in this run"
+  },
+  "environment": {
+    "client": "Claude Desktop",
+    "claude_code_version_recorded_during_diagnosis": "2.1.325",
+    "cc_switch_version": "4.0.33",
+    "antigravity_tools_version": "5.0.3",
+    "requested_model": "gemini-4-hydrogen"
+  },
+  "evidence": [
+    {
+      "file": "assets/traffic-before.png",
+      "kind": "Crop of the original user-supplied traffic screenshot",
+      "model_tier_in_source": "LOW",
+      "visible_rows": 7,
+      "crop_only": true
+    },
+    {
+      "file": "assets/traffic-after.png",
+      "kind": "Crop of a later actual native traffic-monitor capture",
+      "model_tier_in_source": "HIGH",
+      "visible_rows": 6,
+      "http_status_of_visible_rows": 200,
+      "search_box_at_capture": "200",
+      "crop_only": true,
+      "scope": "Successful-request excerpt; the monitor also contained quota and network errors"
+    },
+    {
+      "file": "assets/permission-mode.png",
+      "kind": "Original user-supplied menu screenshot before switching",
+      "selected_mode_in_screenshot": "Auto"
+    },
+    {
+      "file": "assets/cache-hit-comparison.svg",
+      "kind": "Graphic of user-reported approximate averages"
+    }
+  ],
+  "interpretation": "Permission-mode change coincided with symptom resolution and higher observed aggregate cache-hit rate. Request composition and model tiers also changed.",
+  "privacy": "Published artifacts exclude account columns, emails, request and response bodies, transcripts, authentication fields and log databases.",
+  "asset_sha256": {
+    "cache-hit-comparison.svg": "1f0ef39f1bc92b122c3532842d0e27c0b5fdf382b2555da19353b3715a044909",
+    "permission-mode.png": "0480307f3ace4d395da3e34de4f139e9c0d97b6e8bfa03b3355b5ce2dffd1858",
+    "traffic-after.png": "6a2c96cf51037316064f85deae0d7d2694b8d34155cd116ee041f27657a9523f",
+    "traffic-before.png": "f444edc032367865c5f6e50dba50da7dbf84566336579b15f62f3099b088ff3e",
+    "traffic-comparison.png": "18559d9d59203b788632f5fa794a95f1148396a20505a6d9c24966c0ed1b9ee3"
+  },
+  "references": [
+    "https://code.claude.com/docs/en/permission-modes",
+    "https://github.com/lbjlaq/Antigravity-Manager/issues/3693",
+    "https://github.com/farion1231/cc-switch/issues/7721"
+  ]
+}

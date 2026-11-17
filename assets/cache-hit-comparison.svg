@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">Reported cache-hit rate increased from approximately 47% to 86%</title>
+  <desc id="desc">A user-reported multi-hour observation in Claude Desktop through CC Switch and Antigravity Tools. Before, Auto mode, approximately 47 percent. After, Bypass Permissions, approximately 86 percent. Improvement of 39 percentage points. These are observational values, not a controlled benchmark.</desc>
+  <rect width="1280" height="460" rx="24" fill="#f5f7fb"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="52" y="58" font-size="16" font-weight="700" letter-spacing="2" fill="#526079">CLAUDE DESKTOP · CC SWITCH · ANTIGRAVITY TOOLS</text>
+    <text x="52" y="110" font-size="34" font-weight="700" fill="#132238">Observed cache-hit rate</text>
+    <text x="52" y="142" font-size="18" fill="#607086">User-reported averages over several hours · November 17, 2026</text>
+    <rect x="52" y="174" width="506" height="207" rx="18" fill="#fff" stroke="#e0e5ee"/>
+    <rect x="722" y="174" width="506" height="207" rx="18" fill="#fff" stroke="#c7e9db"/>
+    <text x="80" y="211" font-size="17" font-weight="700" fill="#8c5143">BEFORE · AUTO</text>
+    <text x="80" y="299" font-size="80" font-weight="700" fill="#b65d47">≈47%</text>
+    <rect x="80" y="332" width="450" height="15" rx="7.5" fill="#edf0f5"/>
+    <rect x="80" y="332" width="211.5" height="15" rx="7.5" fill="#d58268"/>
+    <text x="750" y="211" font-size="17" font-weight="700" fill="#187451">AFTER · BYPASS PERMISSIONS</text>
+    <text x="750" y="299" font-size="80" font-weight="700" fill="#11794f">≈86%</text>
+    <rect x="750" y="332" width="450" height="15" rx="7.5" fill="#edf0f5"/>
+    <rect x="750" y="332" width="387" height="15" rx="7.5" fill="#33a87b"/>
+    <path d="M590 258H681M668 246L681 258L668 270" fill="none" stroke="#76859a" stroke-width="3"/>
+    <text x="640" y="310" text-anchor="middle" font-size="28" font-weight="700" fill="#132238">+39</text>
+    <text x="640" y="334" text-anchor="middle" font-size="13" fill="#607086">percentage points</text>
+    <text x="52" y="418" font-size="17" fill="#526079">Permission-mode workaround · Request mix and model tiers also changed</text>
+    <text x="52" y="444" font-size="14" fill="#68788d">Screenshots show individual request excerpts. Exact averaging windows and calculation method were not separately recorded.</text>
+  </g>
+</svg>

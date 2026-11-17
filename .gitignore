@@ -1,0 +1,9 @@
+*.db
+*.db-*
+*.log
+*.jsonl
+.env
+.env.*
+private/
+raw/
+__pycache__/

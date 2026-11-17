@@ -14,9 +14,9 @@ After I changed the permission mode from **Auto** to **Bypass Permissions**, the
 
 ![Actual traffic screenshots before and after the change](assets/traffic-comparison.png)
 
-The left excerpt comes from the original Antigravity Tools screenshot. It shows repeated large input counts, very short outputs, and cache usage displayed as zero. The right excerpt comes from the later live traffic page. Several of its six adjacent successful requests display roughly 98% cache reuse. Requests displaying zero cache usage remain visible too.
+The left excerpt comes from the original Antigravity Tools screenshot. It shows repeated large input counts, very short outputs, and cache usage displayed as zero. The right screenshot shows seven post-change requests. Five display cache reuse between 90.7% and 97.8%, while two requests displaying zero cache usage remain visible too.
 
-Account columns and unrelated regions were cropped out. The numerical values were preserved. At capture time, the search box displayed `200`, and all six visible rows were successful requests. This panel illustrates successful traffic; the same live monitor also contained upstream quota and network errors.
+The published images show token usage, cache usage and latency summaries. Numerical values were preserved. Account information and unrelated content are outside the images.
 
 Original-resolution crops: [before](assets/traffic-before.png) · [after](assets/traffic-after.png).
 

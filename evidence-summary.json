@@ -29,13 +29,18 @@
     },
     {
       "file": "assets/traffic-after.png",
-      "kind": "Crop of a later actual native traffic-monitor capture",
-      "model_tier_in_source": "HIGH",
-      "visible_rows": 6,
-      "http_status_of_visible_rows": 200,
-      "search_box_at_capture": "200",
-      "crop_only": true,
-      "scope": "Successful-request excerpt; the monitor also contained quota and network errors"
+      "kind": "User-supplied screenshot of post-change traffic summaries",
+      "visible_rows": 7,
+      "visible_cache_hit_percentages": [
+        90.7,
+        97.8,
+        93.3,
+        93.0,
+        97.5
+      ],
+      "zero_cache_rows": 2,
+      "source_image_preserved_byte_for_byte": true,
+      "scope": "Token usage, cache usage and latency excerpt; model and HTTP status columns are outside the image"
     },
     {
       "file": "assets/permission-mode.png",
@@ -52,9 +57,9 @@
   "asset_sha256": {
     "cache-hit-comparison.svg": "1f0ef39f1bc92b122c3532842d0e27c0b5fdf382b2555da19353b3715a044909",
     "permission-mode.png": "0480307f3ace4d395da3e34de4f139e9c0d97b6e8bfa03b3355b5ce2dffd1858",
-    "traffic-after.png": "6a2c96cf51037316064f85deae0d7d2694b8d34155cd116ee041f27657a9523f",
+    "traffic-after.png": "806ffccc27fbd5d97c1cb6e3f23707d68391932d5cad1c0e2a120f6a3d28e3f4",
     "traffic-before.png": "f444edc032367865c5f6e50dba50da7dbf84566336579b15f62f3099b088ff3e",
-    "traffic-comparison.png": "18559d9d59203b788632f5fa794a95f1148396a20505a6d9c24966c0ed1b9ee3"
+    "traffic-comparison.png": "9c7c979ec7c726c1e8f42f5645e52c1864a08aea5bb6e0e3dedf0583802f468f"
   },
   "references": [
     "https://code.claude.com/docs/en/permission-modes",
